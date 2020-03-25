@@ -1,0 +1,2 @@
+rootProject.name='CheckoutApp'
+include ':app'
