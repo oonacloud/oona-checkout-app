@@ -6,9 +6,7 @@
     android:layout_height="match_parent"
     android:focusableInTouchMode="false"
     android:outlineAmbientShadowColor="@color/colorAccent"
-    tools:context=".MainActivity"
-    android:background="#000"
-    android:theme="@style/Theme.AppCompat.NoActionBar">
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button"
@@ -29,46 +27,22 @@
         android:layout_marginStart="56dp"
         android:layout_marginLeft="56dp"
         android:layout_marginTop="259dp"
-        android:autofillHints=""
         android:ems="10"
         android:inputType="numberDecimal"
-        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textViewResult"
-        android:layout_width="300dp"
-        android:layout_height="322dp"
+        android:layout_width="292dp"
+        android:layout_height="209dp"
         android:layout_marginStart="56dp"
         android:layout_marginLeft="56dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="51dp"
         android:text="@string/textview"
-        android:textColor="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
-
-    <ImageView
-        android:id="@+id/imageOona"
-        android:layout_width="287dp"
-        android:layout_height="235dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginLeft="35dp"
-        android:clickable="true"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logooonaw" />
-
-    <TextView
-        android:id="@+id/textViewVersion"
-        android:layout_width="336dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="18dp"
-        android:layout_marginLeft="18dp"
-        android:layout_marginBottom="8dp"
-        android:textColor="#FF5722"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>

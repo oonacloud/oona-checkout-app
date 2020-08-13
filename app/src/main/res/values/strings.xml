@@ -1,8 +1,10 @@
 <resources>
-    <string name="app_name">checkoutapp</string>
+    <string name="app_name">Oona Send payment</string>
     <string name="open_oonamockup_application">Open Oona App Test1</string>
     <string name="close_app">Close app</string>
     <string name="oona_app_test2">Oona App Test2</string>
     <string name="open_web_app">Open Web App</string>
-    <string name="open_oona_mockup_app">Open Oona Mockup App</string>
+    <string name="open_oona_mockup_app">Pay</string>
+    <string name="textview" />
+    <string name="oonaURL">https://www.oonacloud.com/fr/</string>
 </resources>
