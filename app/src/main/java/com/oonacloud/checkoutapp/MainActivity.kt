@@ -120,8 +120,9 @@ class MainActivity : AppCompatActivity() {
 
         foregroundApp(1000,"com.oonacloud.checkoutapp")
 
+        // Will not be needed with the production version
         thread(start = true) {
-            // Oona App reprend la main en fin de transaction... issue 476
+            // Oona App takes back control at the end of the transaction ... issue 476
             foregroundApp(15000,"com.oonacloud.checkoutapp")
         }
     }
